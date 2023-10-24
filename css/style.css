@@ -1,0 +1,327 @@
+/*estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header de la pagina*/
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67); 
+}
+
+
+
+header nav ul{
+    background-color: #000;
+    color: #f5f5dc;
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.img-2{
+    border-radius: 50%;
+}
+
+.header .logo-header img{
+    height: 60px;
+    width: 70px;
+    cursor: pointer;
+}
+
+
+
+.inicio-nosotros{
+    background-color: #000;
+    color: #f5f5dc;
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    margin: 0;
+}
+
+/*body de la pagina*/
+
+body{
+    background-image: url(./../assets/background.jpg)
+}
+
+/* main */
+section{
+    margin-top: 0;
+}
+
+section h1{
+    margin: 40px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+
+.color-h1{
+    color: beige;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67); 
+}
+
+
+.color-h2{
+    color: beige;
+    background-color: black;
+}
+
+
+.muestras-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.muestras{
+    width: 350px;
+    height: 380px;
+    background-color: #393b4348;
+    border-radius: 20px 0;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    position: relative;
+}
+
+.muestras img{
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+}
+
+.muestras-text{
+    background-color: #000;
+    color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    padding: 10px;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+/*pagina de productos*/
+
+section h2{
+    margin: 40px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+
+.parrafo{
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+
+.inicio-productos{
+    text-align: center;
+    background-color: #000;
+    color: #f5f5dc;
+}
+
+img{
+    width: 100%;
+    height: 20%;
+    object-fit: fill;
+}
+
+.flex-container{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+
+@media (max-width: 320px){
+    .column{
+        flex: 100%;
+    }
+}
+
+#nuestros-productos-dos{
+    color: #f5f5dc;
+    text-shadow: 0px 2px 6px rgba(91 ,213,215,0.67);
+}
+
+/*pagina de oferta*/
+
+.parrafo-ofertas{
+    text-align: center;
+    color: beige;
+    font-size: 50px;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+.inicio-ofertas{
+    text-align: center;
+    color: #f5f5dc;
+}
+
+.ofertas{
+    width: 100%;
+    height: 250px;
+    background-color: #393b4348;
+    padding: 150px;
+}
+
+.ofertas img{
+    width: 100%;
+    height: 800px;
+    box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+}
+
+#nuestras-ofertas{
+    color: #f5f5dc;
+}
+
+.nuestras-ofertas-dos img{
+        width: 100%;
+        height: 800px;
+        box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(96,199,204,0.75);
+}
+
+
+
+/*pagina sobre nosotros*/
+.inicio-nosotros{
+    text-align: center;
+    background-color: #000;
+    color: #f5f5dc;
+}
+
+#sobre-nosotros{
+    background-color: #000;
+    color: #f5f5dc;
+}
+
+.parrafo-nosotros{
+    background-color: #a52a2a;
+    color: beige;
+}
+
+.color-p-b{
+    color: beige;
+}
+
+
+.style-h1{
+    text-align: center;
+    color: #f5f5dc;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+
+
+
+
+/*pagina de contacto*/
+#contacto{
+    color: #f5f5dc;
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+}
+.inicio-contacto{
+    text-align: center;
+    background-color: #000;
+    color: #f5f5dc;
+}
+
+.parrafo-contacto{
+    text-shadow: 0px 2px 6px rgba(91,213,215,0.67);
+    color: beige;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Estilos de la sección de productos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
